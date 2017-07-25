@@ -1,0 +1,10 @@
+
+PATH="/Applications/mampstack-5.6.31-0/git/bin:/Applications/mampstack-5.6.31-0/sqlite/bin:/Applications/mampstack-5.6.31-0/php/bin:/Applications/mampstack-5.6.31-0/mysql/bin:/Applications/mampstack-5.6.31-0/apache2/bin:/Applications/mampstack-5.6.31-0/common/bin:$PATH"
+BITNAMI_ROOT="/Applications/mampstack-5.6.31-0"
+export BITNAMI_ROOT
+
+
+if [ "$BASH" != "" -a -s "/Applications/mampstack-5.6.31-0/git/scripts/git-completion.bash" ]; then
+    . "/Applications/mampstack-5.6.31-0/git/scripts/git-completion.bash"
+fi
+GIT_PS1_SHOWDIRTYSTATE=true
